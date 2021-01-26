@@ -8,7 +8,7 @@ export default function Map(props) {
     return (
         <div className="container map">
 
-            <MapContainer center={[props.latitude, props.longitude]} zoom={13} scrollWheelZoom={false}>
+            <MapContainer center={[props.latitude, props.longitude]} zoom={4} scrollWheelZoom={false}>
                 <TileLayer
                     attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
                     url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
