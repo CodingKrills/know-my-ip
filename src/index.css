@@ -8,3 +8,8 @@
 body {
   background-color: #454372;
 }
+
+.leaflet-container {
+  height: 300px;
+  width: 100%;
+}

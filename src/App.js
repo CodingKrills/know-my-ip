@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react'
 
 import axios from 'axios'
 
+import Map from "./Map";
+
 export default function App() {
 
   const [myData, setMyData] = useState("")
@@ -102,6 +104,8 @@ export default function App() {
             </div>
           </div>
         </div>
+
+        <Map latitude={myData.latitude} longitude={myData.longitude} />
 
       </> : <>
 
