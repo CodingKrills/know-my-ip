@@ -55,7 +55,23 @@ export default function App() {
         </div>
 
       </> : <>
-          ERROR
+
+
+          <div className="container text-center" style={{ marginTop: "10em" }}>
+            <div className="row justify-content-center">
+              <div className="col-md-7 col-sm-8 col-xs-10 col-lg-6">
+                <div className="card">
+                  <div className="card-body">
+                    <h2 className="card-title" >
+
+                      Loading .......
+
+                    </h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </>}
 
     </div>
