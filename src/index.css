@@ -2,4 +2,9 @@
   margin: 0 auto; /* Added */
   float: none; /* Added */
   margin-bottom: 10px; /* Added */
+  background: #fffce8;
+}
+
+body {
+  background-color: #454372;
 }
