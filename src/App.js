@@ -105,7 +105,7 @@ export default function App() {
           </div>
         </div>
 
-        <Map latitude={myData.latitude} longitude={myData.longitude} />
+        <Map />
 
       </> : <>
 
